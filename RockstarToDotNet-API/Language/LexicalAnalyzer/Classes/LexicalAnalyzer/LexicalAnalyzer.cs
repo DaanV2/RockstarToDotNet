@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 namespace Rockstar.Language.LexicalAnalyzer {
     ///DOLATER <summary>Add description for class: LexicalAnalyzer</summary>
     public partial class LexicalAnalyzer {
-
+        
     }
 }
