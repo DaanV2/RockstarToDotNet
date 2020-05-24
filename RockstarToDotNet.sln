@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockstarToDotNet", "RockstarToDotNet\RockstarToDotNet.csproj", "{00CE4B2C-C7A6-4C70-A57B-1B870D2732DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockstarToDoNet-API", "RockstarToDoNet-API\RockstarToDoNet-API.csproj", "{9506CE7F-E7D6-4B2A-B0EF-C5D898FEE5E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockstarToDotNet-API", "RockstarToDotNet-API\RockstarToDotNet-API.csproj", "{9506CE7F-E7D6-4B2A-B0EF-C5D898FEE5E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B36998AC-D7C0-4BBE-9DA0-0DA84F234686}"
 EndProject
