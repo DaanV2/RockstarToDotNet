@@ -54,13 +54,10 @@
     <Compile Include="Language\Classes\Variable\Variable - Initializes.cs" />
     <Compile Include="Language\Classes\Variable\Variable - Properties.cs" />
     <Compile Include="Language\LexicalAnalyzer\Classes\LexicalAnalyzer\LexicalAnalyzer.cs" />
-    <Compile Include="Language\LexicalAnalyzer\Classes\TokenIdentifierConfig\TokenIdentifierConfig.cs" />
-    <Compile Include="Language\LexicalAnalyzer\Classes\TokenIdentifier\TokenIdentifier.cs" />
-    <Compile Include="Language\LexicalAnalyzer\Classes\Token\Token.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Language\Enumerators\OperationType\" />
+    <Folder Include="Language\Enumerators\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
