@@ -46,6 +46,11 @@
   <ItemGroup>
     <Compile Include="Language\Classes\Comment\Comment.cs" />
     <Compile Include="Language\Classes\Condition\Condition.cs" />
+    <Compile Include="Language\Classes\Function\Function - Initialize.cs" />
+    <Compile Include="Language\Classes\Function\Function.cs" />
+    <Compile Include="Language\Classes\Object\Object - Initialize.cs" />
+    <Compile Include="Language\Classes\Object\Object - Properties.cs" />
+    <Compile Include="Language\Classes\Object\Object - Variables.cs" />
     <Compile Include="Language\Classes\Operation\Operation.cs" />
     <Compile Include="Language\Classes\Type\Type - Initialize.cs" />
     <Compile Include="Language\Classes\Type\Type - Properties.cs" />
@@ -53,11 +58,18 @@
     <Compile Include="Language\Classes\Type\Type - Variables.cs" />
     <Compile Include="Language\Classes\Variable\Variable - Initializes.cs" />
     <Compile Include="Language\Classes\Variable\Variable - Properties.cs" />
-    <Compile Include="Language\LexicalAnalyzer\Classes\LexicalAnalyzer\LexicalAnalyzer.cs" />
+    <Compile Include="Language\Interfaces\ICommentCarrier\ICommentCarrier.cs" />
+    <Compile Include="Language\Interfaces\INamedObject\INamedObject.cs" />
+    <Compile Include="Language\LexicalAnalyzer\Classes\LAContext\LAContext.cs" />
+    <Compile Include="Language\LexicalAnalyzer\Classes\LexicalAnalyzer\LexicalAnalyzer - Analyze.cs" />
+    <Compile Include="Language\LexicalAnalyzer\Classes\Output\Output - Initialize.cs" />
+    <Compile Include="Language\LexicalAnalyzer\Classes\Output\Output - Properties.cs" />
+    <Compile Include="Language\LexicalAnalyzer\Classes\Output\Output - Variables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Language\Enumerators\" />
+    <Folder Include="Language\LexicalAnalyzer\Classes\Tokenizer\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
