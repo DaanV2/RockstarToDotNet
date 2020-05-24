@@ -12,7 +12,7 @@ namespace Rockstar.Language {
         public Object() {
             this.Name = String.Empty;
             this.Fields = null;
-            this.Function = null;
+            this.Functions = null;
         }
     }
 }

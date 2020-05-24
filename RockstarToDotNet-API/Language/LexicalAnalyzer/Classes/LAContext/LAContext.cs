@@ -8,13 +8,15 @@ namespace Rockstar.Language.LexicalAnalyzer {
         /// <param name="line"></param>
         /// <param name="reader"></param>
         /// <param name="out"></param>
-        public LAContext(String line, StreamReader reader, Output @out) {
+        public LAContext(String line, String Filename, StreamReader reader, Output @out) {
             this.Line = line;
+            this.Filename = Filename;
             this.Reader = reader;
             this.Out = @out;
         }
 
         internal String Line;
+        internal String Filename;
         internal StreamReader Reader;
         internal Output Out;
     }

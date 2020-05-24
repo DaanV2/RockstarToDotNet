@@ -8,7 +8,7 @@ namespace Rockstar.Language {
         /// </summary>
         /// <param name="obj"></param>
         /// <returns></returns>
-        public override Boolean Equals(Object obj) {
+        public override Boolean Equals(System.Object obj) {
             return this.Equals(obj as Type);
         }
 
